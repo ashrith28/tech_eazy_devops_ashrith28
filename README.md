@@ -80,4 +80,5 @@ Defined in `variables.tf`:
 ```bash
 cd terraform/
 terraform init
-terraform apply -auto-approve
+terraform plan
+terraform apply
