@@ -6,17 +6,12 @@ Deploy the Spring Boot app on AWS EC2 using Java 21, Maven, and Ubuntu 22.04 wit
 ## 📁 Project Structure
 
 .
-├── terraform/
-
-│ ├── main.tf
-
-│ ├── variables.tf
-
-│ ├── outputs.tf
-
-├── scripts/
-
-│ └── user_data.sh
+├── terraform/               
+│ ├── main.tf            
+│ ├── variables.tf               
+│ ├── outputs.tf                   
+├── scripts/                    
+│ └── user_data.sh           
 
 
 ---
