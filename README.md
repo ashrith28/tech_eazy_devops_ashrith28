@@ -7,10 +7,15 @@ Deploy the Spring Boot app on AWS EC2 using Java 21, Maven, and Ubuntu 22.04 wit
 
 .
 ├── terraform/
+
 │ ├── main.tf
+
 │ ├── variables.tf
+
 │ ├── outputs.tf
+
 ├── scripts/
+
 │ └── user_data.sh
 
 
