@@ -7,7 +7,10 @@ cd test-repo-for-devops
 mvn clean package
 nohup java -jar target/hellomvc-0.0.1-SNAPSHOT.jar &
 
-# Simulate log uploads to S3
-BUCKET="ashrith-devops-app-logs"
+sleep 300  # Wait 5 minutes for everything to complete
+
+# Upload logs again (after some time)
 aws s3 cp /var/log/cloud-init.log s3://$BUCKET/cloud-init.log
 aws s3 cp target/hellomvc-0.0.1-SNAPSHOT.jar s3://$BUCKET/app/logs/
+
+shutdown -h now  # Shut down the EC2 instance to save cost
