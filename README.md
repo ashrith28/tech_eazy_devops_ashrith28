@@ -82,3 +82,11 @@ cd terraform/
 terraform init
 terraform plan
 terraform apply
+```
+Here is the some screenshots of the assignment
+
+<img width="997" height="580" alt="Screenshot from 2025-07-23 17-06-06" src="https://github.com/user-attachments/assets/1fb349c9-e729-4074-ac6f-886be92e75c5" />
+<img width="2944" height="1664" alt="Screenshot from 2025-07-23 17-05-21" src="https://github.com/user-attachments/assets/25e4e7dc-883f-4c5b-8a58-e76a2d706985" />
+<img width="973" height="488" alt="Screenshot from 2025-07-23 17-05-03" src="https://github.com/user-attachments/assets/0524d55d-6144-4b43-a1a9-405cff185f5e" />
+
+
